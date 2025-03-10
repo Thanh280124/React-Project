@@ -4,6 +4,13 @@ import Meals from "./Practice Project/Meals"
 import Calculator from "./Practice Project/Calculator"
 import ToogleBackgroundColor from "./Practice Project/ToogleBackgroundColor"
 import HiddenSearchBar from "./Practice Project/HiddenSearchBar"
+import Testimonials from "./Practice Project/Testimonials"
+import AccordingData from "./Practice Project/AccordingData"
+import { accordionData } from "./utils/content"
+import { Form } from "./Practice Project/Form"
+import Nav from "./Navigation/Nav"
+import Product from "./Products/Product"
+import Recommended from "./Recommended/Recommended"
 const App = () => {
   return (
     <div>
@@ -12,8 +19,19 @@ const App = () => {
     <Meals />
     <Calculator />
     <ToogleBackgroundColor />
-    <HiddenSearchBar/>*/}
     <HiddenSearchBar/>
+    <Testimonials/>
+    <AccordingData/>
+    <div>
+      {accordionData.map(({title,content}) =>(
+        <AccordingData title={title} content = {content}/>
+      ))}
+    </div>
+    <Form/>
+    */}
+    <Nav/>
+    <Product/>
+    <Recommended/>
     </div>
   )
 }
