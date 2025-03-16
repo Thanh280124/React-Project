@@ -11,6 +11,7 @@ import { Form } from "./Practice Project/Form"
 import Nav from "./Navigation/Nav"
 import Product from "./Products/Product"
 import Recommended from "./Recommended/Recommended"
+import RiskSimulationGame from "./RiskSimulationGame"
 const App = () => {
   return (
     <div>
@@ -29,9 +30,7 @@ const App = () => {
     </div>
     <Form/>
     */}
-    <Nav/>
-    <Product/>
-    <Recommended/>
+   <RiskSimulationGame/>
     </div>
   )
 }
