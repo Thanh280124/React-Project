@@ -8,10 +8,8 @@ import Testimonials from "./Practice Project/Testimonials"
 import AccordingData from "./Practice Project/AccordingData"
 import { accordionData } from "./utils/content"
 import { Form } from "./Practice Project/Form"
-import Nav from "./Navigation/Nav"
-import Product from "./Products/Product"
-import Recommended from "./Recommended/Recommended"
-import RiskSimulationGame from "./RiskSimulationGame"
+import Example from "./React With DaisyUI/Example"
+import MyApp from "./React With RadixUI/MyApp"
 const App = () => {
   return (
     <div>
@@ -29,8 +27,9 @@ const App = () => {
       ))}
     </div>
     <Form/>
+    <Example/>
     */}
-   <RiskSimulationGame/>
+    <MyApp/>
     </div>
   )
 }
