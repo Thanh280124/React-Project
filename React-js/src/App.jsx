@@ -10,6 +10,7 @@ import { accordionData } from "./utils/content"
 import { Form } from "./Practice Project/Form"
 import Example from "./React With DaisyUI/Example"
 import MyApp from "./React With RadixUI/MyApp"
+import Header from "./Component/Header"
 const App = () => {
   return (
     <div>
@@ -28,8 +29,10 @@ const App = () => {
     </div>
     <Form/>
     <Example/>
-    */}
     <MyApp/>
+    */}
+    <Header/>
+
     </div>
   )
 }
